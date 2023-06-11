@@ -1,0 +1,36 @@
+<hhml> 
+    <head>
+        <title>Sample Form</title>
+    </head>  
+    <body>
+        <h1> Sample Form</h1>
+
+        <form action="collectinput.php" method="post">
+            First Name <input type="text" name="fname"/><br><br>
+            Last Name <input type="text" name="lname"/><br><br>
+            Gender <input type="radio" Name="Gender" value="M" checked/>Male<input type="radio" Name="Gender" value="F"/>Female<br><br>
+            Date of Birth<input type="date" name="dob"/><br><br>
+            Date of Birth<input type="time" name="dobtime"/><br><br>
+            Date of Birth <input type="Datetime-local" name="dobdatetime"/><br><br>
+            payment type<input type="checkbox" name="card" value="card"/>Card Payment<input type="checkbox" name="cash" value="cash"/>Cash Payment<br><br>
+            Address <textarea name="Address"></textarea><br><br>
+            City <Select name="city">
+                    <option value="colombo"> Colombo</option>
+                    <option value="kandy"> Kandy</option>
+                    <option value="Galle"> Galle</option>
+
+                  </Select><br><br>
+            Password <input type="Password" name="pword"/><br><br>
+            Photo<input type="file"/><br><br>
+            <input type="submit" value="send data"/>
+            <input type="reset"/>
+
+
+
+
+
+
+
+        </form>
+    </body> 
+</html>

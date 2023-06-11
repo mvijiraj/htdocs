@@ -1,0 +1,6 @@
+[submodule "marksheet"]
+	path = marksheet
+	url = https://github.com/mvijiraj/marksheet.git
+[submodule "php-sms-app"]
+	path = php-sms-app
+	url = https://github.com/devzonedo/php-sms-app.git
